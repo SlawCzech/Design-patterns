@@ -1,9 +1,9 @@
-from factory.simple_factory.autos.abs_auto import AbsAuto
+from factory.full_factory.autos.abs_auto import AbsAuto
 
 
 class JeepSahara(AbsAuto):
     def start(self):
-        print('Jeep Saraha running ruggedly.')
+        print(f'{self.name} running ruggedly.')
 
     def stop(self):
-        print('Jeep Saraha shutting down.')
+        print(f'{self.name} shutting down.')

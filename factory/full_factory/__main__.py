@@ -1,9 +1,8 @@
-from factory.simple_factory.auto_factory import AutoFactory
+from factory.full_factory.factories.loader import load_factory
 
-factory = AutoFactory()
-
-for carname in 'Chevy', 'Ford', 'Jeep', 'Tesla':
-    car = factory.create_instance(carname)
+for factory_name in 'chevy_factory', 'ford_factory', 'jeep_factory', 'null_factory':
+    factory = load_factory(factory_name)
+    car = factory.create_auto()
     car.start()
     car.stop()
 

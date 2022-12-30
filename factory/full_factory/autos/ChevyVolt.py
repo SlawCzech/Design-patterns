@@ -1,9 +1,9 @@
-from factory.simple_factory.autos.abs_auto import AbsAuto
+from factory.full_factory.autos.abs_auto import AbsAuto
 
 
 class ChevyVolt(AbsAuto):
     def start(self):
-        print('Chevrolet Volt running with shocking power!')
+        print(f'{self.name} running with shocking power!')
 
     def stop(self):
-        print('Chevrolet Volt shutting down.')
+        print(f'{self.name} shutting down.')
