@@ -5,9 +5,13 @@
 3. Behavioral, object interaction and responsibility
 
 
-## Factory
-- inaczej virtual constructor
+## Factory / Virtual Constructor
 - creational
 - tworzenie interfejsu do tworzenia obiektu
 - defers instantiation to subclass  (instancjonowanie obiektów jest przesunięte do runtime'u)
-- 
+
+
+## Abstract Factory / Kit Pattern
+- creational
+- similar to Factory
+- Factory tworzy jeden obiekt, a Abstract Factory tworzy rodzinę obiektów
