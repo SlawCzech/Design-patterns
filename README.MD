@@ -31,9 +31,15 @@
 - access control to limited resources
 
 
-## Adepter / Wrapper pattern
+## Adapter / Wrapper pattern
 - structural
 - converts interface of one class to another's
 - may offer additional functionalities
 - if object adapter -> composition
 - if class adapter -> inheritance
+
+
+## Decorator / Wrapper pattern
+- structural
+- adds new functionalities to objects
+- dynamically at runtime
