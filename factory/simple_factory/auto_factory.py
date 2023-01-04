@@ -21,4 +21,3 @@ class AutoFactory:
         if car_name in self.autos:
             return self.autos[car_name]()
         return autos.NullCar(car_name)
-

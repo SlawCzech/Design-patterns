@@ -15,3 +15,12 @@
 - creational
 - similar to Factory
 - Factory tworzy jeden obiekt, a Abstract Factory tworzy rodzinę obiektów
+
+
+## Builder
+- creational
+- separates construction from representation (oddziela tworzenie od reprezentacji)
+- Encapsulates construction of object
+- Allows for multistep construction process
+- User sees only abstraction
+
