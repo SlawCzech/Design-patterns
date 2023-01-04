@@ -24,3 +24,16 @@
 - Allows for multistep construction process
 - User sees only abstraction
 
+
+## Singleton
+- creational
+- only one instance of class
+- access control to limited resources
+
+
+## Adepter / Wrapper pattern
+- structural
+- converts interface of one class to another's
+- may offer additional functionalities
+- if object adapter -> composition
+- if class adapter -> inheritance
