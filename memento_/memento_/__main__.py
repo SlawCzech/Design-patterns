@@ -15,4 +15,5 @@ def main():
     new_game.set_memento(memento)
     print(f'Hero: {new_game.game_state.name}, game level: {new_game.game_state.level}')
 
+
 main()

@@ -64,3 +64,9 @@
 
 - behavioral
 - drops objects to hard drive and load back
+
+
+## Mediator 
+- behavioral
+- use when objects have many dependencies, references to objects and when we want to change behavior without subclassing
+- used in GUIs
