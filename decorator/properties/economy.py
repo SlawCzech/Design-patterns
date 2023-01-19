@@ -1,3 +1,5 @@
+from decorator.properties.abs_car import AbsCar
+
 
 class Economy(AbsCar):
     def __init__(self, engine, paint, upholstery):

@@ -2,6 +2,7 @@ from observer_.observer_.observer.abs_observer import AbsObserver
 
 
 class ForecastKPIs(AbsObserver):
+
     _open_tickets = -1
     _closed_tickets = -1
     _new_tickets = -1

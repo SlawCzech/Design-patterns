@@ -1,11 +1,12 @@
 import pyodbc
 
 CONNSTR = (
-    'DRIVER={SQL Server};' +
-    'SERVER=.\\sql2019;' +
-    'DATABASE=AdventureWorks;' +
-    'TRUSTED_CONNECTION=TRUE'
+        'DRIVER={SQL Server};' +
+        'SERVER=.\\sql2019;' +
+        'DATABASE=AdventureWorks;' +
+        'TRUSTED_CONNECTION=TRUE'
 )
+
 
 def get_employees():
     connection = pyodbc.connect(CONNSTR)
@@ -20,5 +21,6 @@ def get_employees():
         print(row.FirstName, row.LastName)
     connection.commit()
     connection.close()
+
 
 get_employees()

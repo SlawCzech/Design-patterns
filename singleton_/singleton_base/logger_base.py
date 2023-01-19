@@ -1,9 +1,9 @@
 from datetime import datetime
 
-from singleton.singleton_meta.singleton_meta import Singleton
+from singleton_.singleton_base.singleton_base import Singleton
 
 
-class Logger(metaclass=Singleton):
+class Logger(Singleton):
     log_file = None
 
     def __init__(self, path):

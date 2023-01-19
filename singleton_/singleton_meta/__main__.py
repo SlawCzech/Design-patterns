@@ -1,7 +1,7 @@
-from singleton.singleton_meta.logger import Logger
+from singleton_.singleton_meta.logger import Logger
 
 logger = Logger('my.log')
-logger.write_log('logging with singleton pattern')
+logger.write_log('logging with singleton_ pattern')
 
 logger2 = Logger('your.log')
 assert logger is logger2
@@ -14,5 +14,3 @@ logger.close_log()
 with open('my.log') as f:
     for line in f:
         print(line, end='')
-
-

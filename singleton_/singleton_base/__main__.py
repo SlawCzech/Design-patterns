@@ -1,7 +1,7 @@
-from singleton.singleton_base.logger_base import Logger
+from singleton_.singleton_base.logger_base import Logger
 
 logger = Logger('my.log')
-logger.write_log('logging with singleton pattern')
+logger.write_log('logging with singleton_ pattern')
 
 logger2 = Logger('your.log')
 assert logger is logger2

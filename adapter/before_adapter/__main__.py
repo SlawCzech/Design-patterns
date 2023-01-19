@@ -1,6 +1,6 @@
 from mock_customers import MOCKCUSTOMERS as CUSTOMERS
 from mock_vendors import MOCKVENDORS as VENDORS
-TYPE = 'vendors'
+TYPE = 'customers'
 
 def main():
     if TYPE == 'customers':
